@@ -26,6 +26,7 @@ export const modules = envBuildModules || [
   'effect-coverflow',
   'effect-creative',
   'effect-cards',
+  'query-navigation',
 ];
 
 export default {

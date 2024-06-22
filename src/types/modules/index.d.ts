@@ -24,6 +24,7 @@ declare const Zoom: SwiperModule;
 declare const FreeMode: SwiperModule;
 declare const Grid: SwiperModule;
 declare const Manipulation: SwiperModule;
+declare const QueryNavigation: SwiperModule;
 
 export {
   A11y,
@@ -50,4 +51,5 @@ export {
   FreeMode,
   Grid,
   Manipulation,
+  QueryNavigation,
 };

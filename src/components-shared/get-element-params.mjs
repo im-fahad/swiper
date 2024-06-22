@@ -44,6 +44,7 @@ const modulesParamsList = [
   'thumbs',
   'virtual',
   'zoom',
+  'query-navigation',
 ];
 
 function getParams(element, propName, propValue) {

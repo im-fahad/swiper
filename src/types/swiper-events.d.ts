@@ -22,6 +22,7 @@ import type { ThumbsEvents } from './modules/thumbs.d.ts';
 import type { VirtualEvents } from './modules/virtual.d.ts';
 import type { ZoomEvents } from './modules/zoom.d.ts';
 import type { FreeModeEvents } from './modules/free-mode.d.ts';
+import type { QueryNavigationEvents } from './modules/query-navigation.d.ts';
 
 export interface SwiperEvents {
   // CORE_EVENTS_START
@@ -346,6 +347,7 @@ interface SwiperEvents extends FlipEffectEvents {}
 interface SwiperEvents extends CreativeEffectEvents {}
 interface SwiperEvents extends CardsEffectEvents {}
 interface SwiperEvents extends HashNavigationEvents {}
+interface SwiperEvents extends QueryNavigationEvents {}
 interface SwiperEvents extends HistoryEvents {}
 interface SwiperEvents extends KeyboardEvents {}
 interface SwiperEvents extends MousewheelEvents {}

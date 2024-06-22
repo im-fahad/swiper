@@ -21,3 +21,4 @@ export type * from './zoom.d.ts';
 export type * from './free-mode.d.ts';
 export type * from './grid.d.ts';
 export type * from './manipulation.d.ts';
+export type * from './query-navigation.d.ts';

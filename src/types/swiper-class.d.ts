@@ -24,6 +24,7 @@ import type { VirtualMethods } from './modules/virtual.d.ts';
 import type { ZoomMethods } from './modules/zoom.d.ts';
 import type { FreeModeMethods } from './modules/free-mode.d.ts';
 import type { ManipulationMethods } from './modules/manipulation.d.ts';
+import type { QueryNavigationMethods } from './modules/query-navigation.d.ts';
 
 interface SwiperClass<Events> {
   /** Add event handler */
@@ -456,6 +457,7 @@ interface Swiper extends SwiperClass<SwiperEvents> {
   virtual: VirtualMethods;
   zoom: ZoomMethods;
   freeMode: FreeModeMethods;
+  queryNavigation: QueryNavigationMethods;
 }
 
 interface Swiper extends ManipulationMethods {}

@@ -24,6 +24,8 @@ import type { GridOptions } from './modules/grid.d.ts';
 import type { CSSSelector, SwiperModule } from './shared.d.ts';
 import type { SwiperEvents } from './swiper-events.d.ts';
 
+import type { QueryNavigationOptions } from './modules/query-navigation.d.ts';
+
 export interface SwiperOptions {
   /**
    * Array with Swiper modules
@@ -1025,6 +1027,21 @@ export interface SwiperOptions {
    * ```
    */
   hashNavigation?: HashNavigationOptions | boolean;
+
+  /**
+   * Enables query url navigation to for slides.
+   * Object with query navigation parameters or boolean `true` to enable with default settings
+   *
+   * @example
+   * ```js
+   * const swiper = new Swiper('.swiper', {
+   *   queryNavigation: {
+   *     replaceState: true,
+   *   },
+   * });
+   * ```
+   */
+  queryNavigation?: QueryNavigationOptions | boolean;
 
   /**
    * Enables history push state where every slide will have its own url. In this parameter you have to specify main slides url like `"slides"` and specify every slide url using `data-history` attribute.

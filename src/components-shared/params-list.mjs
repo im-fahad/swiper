@@ -118,5 +118,6 @@ const paramsList = [
   'virtual',
   'zoom',
   'control',
+  'queryNavigation',
 ];
 export { paramsList };

@@ -102,6 +102,7 @@ export default function History({ swiper, extendParams, on }) {
     if (!window.history || !window.history.pushState) {
       swiper.params.history.enabled = false;
       swiper.params.hashNavigation.enabled = true;
+      swiper.params.queryNavigation.enabled = true;
       return;
     }
     initialized = true;
